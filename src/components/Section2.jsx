@@ -16,7 +16,7 @@ we&apos;ll handle the rest.</h3>
                         <p className="text-[#0FC65C]  p-10">One Link</p>
                         <h1 className="text-[#919191] font-semibold lg:mb-5 lg:text-5xl ml-10">ALL You Create.</h1>
                         <span className="lg:text-5xl ml-10 lg:ml-10 font-semibold ">One Link</span>
-                        <img className="lg:ml-[105px]   ml- lg:mt-8 mt-6" src="public/Mobile.svg" alt="" />
+                        <img className="lg:ml-[105px]   ml- lg:mt-8 mt-6" src="./assets/Mobile.svg" alt="" />
 
                     </div>
                     <div className="bg-[#0D0D0D] ml-5 w-[340px] h-[300px]  lg:mt-40 mt-20 lg:w-[692px] lg:h-[506px]">
