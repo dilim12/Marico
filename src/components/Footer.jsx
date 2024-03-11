@@ -23,35 +23,34 @@ const Footer = () => {
             </div>
 
 
-            <div className=" flex text-white mt-[70px]">
-            <div className="flex items-center lg:ml-10  mt-2   lg:gap-5 gap-2 flex-1">
-            <img className=" lg:ml-10 w-10  ml-6    " src="/public/logo.svg" alt="" />
-          <p className="lg:text-3xl font-bold  text-[15px]">Marico </p>
-          
-        </div>
-            <div className="mt-20  ">
-            <p className="absolute right-[1310px] text-[#707070]">info@marico.co</p>
-            </div>
+            <div className="flex text-white mt-4 lg:mt-10">
+  <div className="flex items-center lg:ml-4 lg:mt-2 gap-2 flex-1">
+    <img className="w-8 ml-28 lg:mt-10 lg:ml-40" src="/public/logo.svg" alt="" />
+    <p className="lg:text-2xl lg:mt-10 font-bold text-[14px]">Marico</p>
+  </div>
+  
+  <div className="lg:mt-24  mt-20 ">
+    <p className="absolute  lg:mr-[310px]  right-[140px] lg:right-[60%] text-[#707070]">info@marico.co</p>
+  </div>
 
-        <div className="lg:flex     lg:flex-1 items-center justify-end font-normal  ">
-          
-            <ul className="flex      text-[#707070] lg:gap-8 gap-3  lg:mr-20 mt-8 mr-2 lg:text-[18px]">
-               <Link spy={true} smooth={true} to="Home">
-                <li className="active:text-blue-600  cursor-pointer">About</li>
-              </Link>
-              <Link spy={true} smooth={true} to="About">
-                <li className="active:text-blue-600  cursor-pointer">Pricing</li>
-              </Link>
-              <Link spy={true} smooth={true} to="Services">
-                <li className="active:text-blue-600  cursor-pointer">Blog</li>
-              </Link>
-              <Link spy={true} smooth={true} to="Services">
-                <li className="active:text-blue-600  cursor-pointer">Sign in</li>
-              </Link>
-            </ul>
-         
-        </div>
-            </div>
+  <div className="lg:flex  lg:flex-1 absolute right-20   lg:ml-[700px] font-normal">
+    <ul className="flex lg:text-[20px] mt-32  lg:mt-8 lg:mr-4 lg:gap-6 gap-2">
+      <Link spy={true} smooth={true} to="Home">
+        <li className="active:text-blue-600 cursor-pointer">About</li>
+      </Link>
+      <Link spy={true} smooth={true} to="About">
+        <li className="active:text-blue-600 cursor-pointer">Pricing</li>
+      </Link>
+      <Link spy={true} smooth={true} to="Services">
+        <li className="active:text-blue-600 cursor-pointer">Blog</li>
+      </Link>
+      <Link spy={true} smooth={true} to="Services">
+        <li className="active:text-blue-600 cursor-pointer">Sign in</li>
+      </Link>
+    </ul>
+  </div>
+</div>
+
         </footer>
     );
 };

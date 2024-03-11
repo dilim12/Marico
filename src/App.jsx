@@ -8,7 +8,7 @@ import Section4 from "./components/Section4";
 
 export default function App() {
   return (
-   <div className="bg-[#000000] lg:w-[1520px] lg:h-[6700px] sm:w-[375px] sm:h-[200px] ">
+   <div className="bg-[#000000] lg:w-[1520px] lg:h-[6700px] w-[375px] h-[5000px] ">
     <Nav/>
     <Header/>
     <Section1/>
