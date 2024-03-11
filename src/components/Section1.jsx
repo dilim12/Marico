@@ -28,7 +28,7 @@ const Section1 = () => {
             </div>
   
             <div className=" mr-6     mt-8 lg:mr-0 lg:mt-0">
-              <img className="lg:ml-[290px] mt-8  lg:h-[700px]" src="/public/Screen.svg" alt="" />
+              <img className="lg:ml-[290px] mt-8  lg:h-[700px]" src="./assets/Screen.svg" alt="" />
             </div>
           </div>
         </div>

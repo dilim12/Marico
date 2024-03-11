@@ -6,7 +6,7 @@ const Footer = () => {
         <footer>
             <div className="text-white lg:ml-[450px] font-medium lg:mt-[100px]  lg:text-3xl">
                 <div className="text-center p-10  lg:w-[620px]">
-                    <img className="w-[100px] ml-28 lg:ml-[200px] pb-10" src="/public/logo.svg" alt="" />
+                    <img className="w-[100px] ml-28 lg:ml-[200px] pb-10" src="./assets/logo.svg" alt="" />
                     <h3 className="lg:text-6xl text-4xl pb-4 font-semibold">Get Started Now.</h3>
                     <p className="lg:text-2xl">Setup is easy and takes under 5 minutes.</p>
                 </div>
@@ -25,7 +25,7 @@ const Footer = () => {
 
             <div className="flex text-white mt-4 lg:mt-10">
   <div className="flex items-center lg:ml-4 lg:mt-2 gap-2 flex-1">
-    <img className="w-8 ml-28 lg:mt-10 lg:ml-40" src="/public/logo.svg" alt="" />
+    <img className="w-8 ml-28 lg:mt-10 lg:ml-40" src="./assets/logo.svg" alt="" />
     <p className="lg:text-2xl lg:mt-10 font-bold text-[14px]">Marico</p>
   </div>
   
@@ -33,8 +33,8 @@ const Footer = () => {
     <p className="absolute  lg:mr-[310px]  right-[140px] lg:right-[60%] text-[#707070]">info@marico.co</p>
   </div>
 
-  <div className="lg:flex  lg:flex-1 absolute right-20   lg:ml-[700px] font-normal">
-    <ul className="flex lg:text-[20px] mt-32  lg:mt-8 lg:mr-4 lg:gap-6 gap-2">
+  <div className="lg:flex  lg:flex-1 absolute right-20 text-[#707070] lg:ml-[700px] font-normal">
+    <ul className="flex lg:text-[20px] mt-32  lg:mt-10 lg:mr-4 lg:gap-6 gap-2">
       <Link spy={true} smooth={true} to="Home">
         <li className="active:text-blue-600 cursor-pointer">About</li>
       </Link>

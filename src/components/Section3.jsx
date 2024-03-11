@@ -28,7 +28,7 @@ your audience directly over email and text massage.</h3>
             </div>
   
             <div className=" mr-6     mt-8 lg:mr-0 lg:mt-0">
-              <img className="lg:ml-[290px] mt-8  lg:h-[700px]" src="/public/Screen (1).svg" alt="" />
+              <img className="lg:ml-[285px] mt-8  lg:h-[700px]" src="./assets/Screen (1).svg" alt="" />
             </div>
           </div>
         </div>

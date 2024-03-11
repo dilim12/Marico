@@ -34,7 +34,7 @@ const Nav = () => {
     <nav>
       <div className=" h-10vh flex justify-between  z-50 text-white lg:py-5 px-10 py-4  ">
         <div className="flex items-center lg:ml-10 mt-2  lg:mt-8 lg:gap-5 gap-2 flex-1">
-            <img className=" lg:ml-10 " src="/public/logo.svg" alt="" />
+            <img className=" lg:ml-10 " src="./assets/logo.svg" alt="" />
           <span className="lg:text-3xl font-bold   text-lg">Marico</span>
         </div>
         <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden ">
