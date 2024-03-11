@@ -19,7 +19,7 @@ const Header = () => {
 
             </div>
             <div className="text-white lg:ml-[500px] font-medium lg:mt-[100px]  lg:text-3xl">
-                <div className="text-center p-10  lg:w-[620px]">
+                <div className="text-center p-10   lg:w-[620px]">
                     <h3>Turn your audience into email and
                     text message subscribers.</h3>
                 </div>
@@ -32,7 +32,7 @@ const Header = () => {
                         <p className=" ml-1  h-[15px] w-[15px] rounded-full bg-green-500"></p>
                     </p>
                     <span className="font-bold">1000+</span>
-                    <h4 className="text-[#707070]">creators have already started</h4>
+                    <h4 className="text-[#707070] text-[15px] lg:text-xl">creators have already started</h4>
                 </div>
 
             </div>
