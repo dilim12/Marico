@@ -8,13 +8,13 @@ const Nav = () => {
   const handleClick =()=>setClick(!click)
   
   const content = <>
-    <div className="lg:hidden block absolute top-[100px] w-full left-0 right-0  bg-black transition">
+    <div className="lg:hidden block absolute top-[90px] w-full left-0 right-0  bg-black transition">
       <ul className="text-center text-xl p-20">
       <Link spy={true} smooth={true} to="/" >
-        <select className="bg-black outline-none  my-4 py-4 border-b border-slaye-800 hover:text-blue-600  cursor-pointer  hover:rounded">
+        <select className="bg-black  my-4 py-4 border-b border-slaye-800 hover:text-blue-600  cursor-pointer  hover:rounded">
                     <option >Use Cases</option>
-                    <option >Use Cases</option>
-                    <option>Use Cases</option>   
+                    <option >male</option>
+                    <option>male</option>   
                 </select>
 
         </Link>
@@ -40,10 +40,10 @@ const Nav = () => {
         <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden ">
           <div className="flex-10 mt-7 mr-[100px]">
             <ul className="flex text-[#707070] gap-8 mr-16 text-[18px]">
-                <select className="bg-black outline-none">
+                <select className="bg-black focus:none">
                     <option >Use Cases</option>
-                    <option >Use Cases</option>
-                    <option>Use Cases</option>   
+                    <option >male</option>
+                    <option>male</option>   
                 </select>
                <Link spy={true} smooth={true} to="/">
                 <li className="active:text-blue-600  cursor-pointer">About</li>
@@ -67,7 +67,7 @@ const Nav = () => {
                 <h3 className="text-[#707070]  lg:mt-6 mt-9 font-bold ml-[120px]">Login</h3>
                 <button className="bg-[#306EF7] lg:w-[119px] lg:h-[55px] lg:mt-2 rounded-lg w-[70px] h-[40px] mt-7">Sign Up</button>
             </div>
-            <button className="block sm:hidden transtion  mb-20    text-2xl"  onClick={handleClick}>
+            <button className="block sm:hidden transtion  mb-20   text-2xl"  onClick={handleClick}>
           {click ? <FaTimes/> : <IoMdMenu/>}
         </button>
       </div>

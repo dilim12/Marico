@@ -4,8 +4,8 @@ const Header = () => {
     return (
         <>
         <div>
-            <div className="text-white  lg:text-8xl font-bold lg:mt-[200px] text-2xl ml-[70px] sm:ml-[265px]">
-                <h1 className="lg:ml-10">Own your audience.</h1>
+            <div className="text-white  lg:text-8xl  font-bold lg:mt-[200px] md:text-2xl ml-[70px] sm:ml-[265px]">
+                <h1 className="lg:ml-10 ">Own your audience.</h1>
                 <h1
             className="lg:text-8xl font-bold leading-tight tracking-tight"
             style={{
